@@ -42,7 +42,8 @@ class ViewController: UIViewController {
             rectangle.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             rectangle.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 100),
             rectangle.widthAnchor.constraint(equalToConstant: 50),
-            rectangle.heightAnchor.constraint(equalToConstant: 50)
+            rectangle.heightAnchor.constraint(equalToConstant: 50),
+            rectangle.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
         
     }
